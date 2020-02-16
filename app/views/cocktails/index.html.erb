@@ -1,7 +1,7 @@
 <h1 class="main-title">my cocktails:</h1>
-<ul>
+<ul class="cocktail-container">
 <% @cocktails.each do |cocktail| %>
-<li> <%= link_to "see this #{cocktail.name}", cocktail_path(cocktail) %> <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Sidecar-cocktail.jpg" alt="cocktail pic"> </li>
+<li class="cocktail"> <%= link_to "#{cocktail.name}", cocktail_path(cocktail) %> <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Sidecar-cocktail.jpg" alt="cocktail pic"> </li>
 <%end  %>
 </ul>
 <%= link_to "create a new cocktail", new_cocktail_path %>

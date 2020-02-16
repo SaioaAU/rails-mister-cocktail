@@ -1,0 +1,20 @@
+.cocktail {
+  display: flex;
+  flex-direction: column;
+  img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+
+
+
+.cocktail-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}

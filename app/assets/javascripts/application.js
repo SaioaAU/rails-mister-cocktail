@@ -14,7 +14,7 @@
 //= require activestorage
 //= require turbolinks
 // //= require_tree .
-// import 'bootstrap';
+import 'bootstrap';
 // import { initUpdateNavbarOnScroll } from '../components/navbar';
 // initUpdateNavbarOnScroll();
-console.log("application.js")
+// console.log("application.js")
