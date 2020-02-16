@@ -12,6 +12,10 @@
   </head>
 
   <body>
+    <%= render "shared/navbar" %>
+    <%= render "shared/banner" %>
+ <!--    <%= image_tag "cocktail.png", alt: "Le Wagon", width: 200 %>
+    <div class="navbar-lewagon myavatar">THIS WILL BE THE NAVBAR</div> -->
     <%= yield %>
     <%= javascript_include_tag "application" %> <!-- from app/assets/javascripts/application.js -->
     <%= javascript_pack_tag "application" %>    <!-- from app/javascript/packs/application.js -->

@@ -13,4 +13,8 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
-//= require_tree .
+// //= require_tree .
+// import 'bootstrap';
+// import { initUpdateNavbarOnScroll } from '../components/navbar';
+// initUpdateNavbarOnScroll();
+console.log("application.js")
